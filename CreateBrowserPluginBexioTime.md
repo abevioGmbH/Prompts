@@ -14,11 +14,14 @@ Erstelle den Code.
 # Die APIs: 
 ## Users:
 ### Request sample:
+```
 curl -X GET \
   https://api.bexio.com/3.0/users \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access-token}'
+```
 ### Response sample:
+```
 [
 {
 
@@ -31,13 +34,17 @@ curl -X GET \
 "is_accountant": false
 }
 ]
+```
 ## TimeSheet:
 ### Request sample:
+```
 curl -X GET \
   https://api.bexio.com/2.0/timesheet \
   -H 'Accept: application/json' \
   -H 'Authorization: Bearer {access-token}'
+```
 ### Response Sample:
+```
 [
   {
     "id": 2,
@@ -66,3 +73,4 @@ curl -X GET \
     }
   }
 ]
+```
